@@ -6,5 +6,5 @@ from datetime import datetime
 class HistoryEntry:
     timestamp: datetime
     action: str
-    user: str
+    actor: str
     description: str

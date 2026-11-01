@@ -1,9 +1,12 @@
 class HelpdeskError(Exception):
-    """Basisklasse aller Helpdesk-Fehler."""
     pass
 
 
 class TicketNotFoundError(HelpdeskError):
+    pass
+
+
+class AgentNotFoundError(HelpdeskError):
     pass
 
 

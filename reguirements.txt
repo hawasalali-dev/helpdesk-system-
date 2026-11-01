@@ -1,0 +1,1 @@
+Da nur Standardbibliotheken verwendet werden: ```text # Keine externen Pakete erforderlich. # Verwendet ausschließlich Python Standard Library.

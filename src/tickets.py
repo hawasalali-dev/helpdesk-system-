@@ -1,6 +1,10 @@
-from abc import ABC, abstractmethod
+from dataclasses import dataclass
 from datetime import datetime
 
-from src.enums import Priority, TicketStatus
-from src.exceptions import ValidationError
-from src.history import HistoryEntry
+
+@dataclass(frozen=True)
+class HistoryEntry:
+    timestamp: datetime
+    action: str
+    actor: str
+    description: str
